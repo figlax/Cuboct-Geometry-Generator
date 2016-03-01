@@ -1,10 +1,11 @@
 # Cuboct-Geometry-Generator
-Grasshopper Generators for cuboct lattice geometries
+Grasshopper Generators for cuboctahedral lattice geometries
 
 Grasshopper is a free parametric plugin for Rhinoceros. http://www.grasshopper3d.com/
-
-The most current file is Cuboct_ReinforcedNode_Plate. 
-
+--------------
+The most current file is Cuboct_ReinforcedNode_Plate.gh. 
+The file Cuboct_ReinforcedNode_Plate_messy.gh gives a more indepth view of generation code, but is not recommended for download or use by most users. 
+-----------------
 This code is able to generate a Rhino mesh of cuboct lattice geometry with variable pitch, strut width, node reinforcement, and arbitrary size (within computational limits). It also provides the option of integrating a top and bottom plate in the model for testing of 3d printed samples. It also offers limited ability to generate BREP geometry of the arrayed lattice without a plate. 
 
 Using the Code:
