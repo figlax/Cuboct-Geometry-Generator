@@ -16,6 +16,8 @@ Using the Code:
     - 'Array Controls'- The number of x, y, and z voxels in your geometry
     - 'Plate?"- True adds a top and bottom plate to the model. False yields arrayed lattice geometry with no plate
     - 'Plate Height'- Controls the height of the top and bottom plate
+    - 'Tension Specimen?' - True creates a plate that has holes to interface with a mounting plate with 1" hole pattern (out of phase with center). 
+    - 'Hole Diameter (Tension)'- sets the hole diameter for the tension specimen. Mounting plate geometry as of 5/26/16 uses 1/4-20 bolts, which correspond to 6.756mm clearance holes. 
     - 'Relative Density' (display only)- Displays the relative density of the voxel geometry. Use this  to adjust other geometry when targeting a specific relative density.
     - 'Strut Width'- width of cuboct voxel struts
     - 'Pitch'- lattice pitch
